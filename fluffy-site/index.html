@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>fluffydolphin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="coffee.rye1.lol">
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="fluffydolphin">
+    <meta itemprop="description" content="landing.fluffydolphin.xyz">
+    <meta itemprop="image" content="https://i.ytimg.com/vi/ceqgwo7U28Y/maxresdefault.jpg">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://landing.fluffydolphin.xyz">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="fluffydolphin">
+    <meta property="og:description" content="landing.fluffydolphin.xyz">
+    <meta property="og:image" content="https://i.ytimg.com/vi/ceqgwo7U28Y/maxresdefault.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="fluffydolphin">
+    <meta name="twitter:description" content="landing.fluffydolphin.xyz">
+    <meta name="twitter:image" content="https://i.ytimg.com/vi/ceqgwo7U28Y/maxresdefault.jpg">
+    <meta name="theme-color" content="#00000" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+</head>
+
+<body>
+    <main>
+        <script>
+            function audioPlay() {
+                var audio = document.getElementById("audio");
+                audio.volume = 0.069;
+                audio.play()
+            }
+
+            function videoPlay() {
+                var video = document.getElementById("video");
+                video.play()
+            }
+        </script>
+        <input type="checkbox" autocomplete="off" id="overlay-toggle">
+        <div class="overlay fullscreen">
+            <label for="overlay-toggle" onclick="audioPlay();videoPlay()"> 
+                    <span class="no-hover" style="font-family: mono; font-size: 0.6em;">Click here</span>
+                    <span class="hover" style="font-family: derk; font-size: 0.6em;">
+                        <a>click here</a>
+                    </span>
+                </label>
+        </div>
+        <audio loop="" preload="auto" id="audio">
+                <source src="audio.mp3" type="audio/mp3">
+            </audio>
+        <video muted="muted" loop="" playsinline="" preload="auto" class="fullscreen bg-video" id="video">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        <section class="fullscreen text-content">
+            </div>
+            <h1 style="font-family: derk; text-shadow: 0 0 0.40em #bababa; "></h1>
+            <div class="socials">
+                <a href="https://discordapp.com/users/427612500239056896/" style=" text-decoration:wavy; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em; " target="_blank">Discord</a> /
+                <a href="https://github.com/fluffydolphin" style="text-decoration:wavy; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em; " target="_blank">Github</a> /
+                <a href="https://hub.docker.com/u/fluffydolphin" style="text-decoration:wavy; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em; " target="_blank"> Docker</a>
+            </div>
+    </main>
+
+</body>
+
+</html>
