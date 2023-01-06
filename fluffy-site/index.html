@@ -2,9 +2,37 @@
 <html lang="en">
 
 <head>
-    <title>fluffydolphin</title>
+    <style>
+        .button {
+            border: none;
+            position: absolute;
+            color: white;
+            padding: 16px 32px;
+            text-align: left;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            z-index: 100;
+        }
+        
+        .button1 {
+            background-color: black;
+            color: black;
+            opacity: 0;
+        }
+        
+        .button1:hover {
+            color: white;
+            font-family: derk;
+            src: url(derk.otf);
+            opacity: 100;
+        }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="coffee.rye1.lol">
+    <meta name="description" content="landing.fluffydolphin.xyz">
 
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="fluffydolphin">
@@ -42,14 +70,15 @@
                 video.play()
             }
         </script>
+        <a class="button button1" type="button" href="https://niggers4sale.rye1.lol">🧑🏿</a>
         <input type="checkbox" autocomplete="off" id="overlay-toggle">
         <div class="overlay fullscreen">
             <label for="overlay-toggle" onclick="audioPlay();videoPlay()"> 
                     <span class="no-hover" style="font-family: mono; font-size: 0.6em;">Click here</span>
                     <span class="hover" style="font-family: derk; font-size: 0.6em;">
                         <a>click here</a>
-                    </span>
-                </label>
+        </span>
+        </label>
         </div>
         <audio loop="" preload="auto" id="audio">
                 <source src="audio.mp3" type="audio/mp3">
